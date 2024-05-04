@@ -86,7 +86,7 @@ func main() {
 				fmt.Printf("ERROR: Cannot switch to tab: %v\n", err)
 				os.Exit(1)
 			}
-			fmt.Printf("INFO: Tab switched: %v -> %v", jsonDataFiltered[0]["title"], v.Title)
+			fmt.Printf("INFO: Tab switched: %v -> %v\n", jsonDataFiltered[0]["title"], v.Title)
 			break
 		}
 	}
